@@ -28,6 +28,9 @@
   font-size: 52px;
   font-weight: 700;
 }
+.nt {
+  color: #e02c6d;
+}
 .content {
   color: #3a3a3a;
   font-family: Poppins;
@@ -83,6 +86,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  margin: 50px;
 }
 /* cards-container er bitorer sob img  */
 .cards-container img {
@@ -100,4 +104,12 @@
 .card h1,
 p {
   padding: 10px 0px;
+}
+/* footer section */
+.f-banner-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  gap: 100px;
+  padding: 100px;
 }
