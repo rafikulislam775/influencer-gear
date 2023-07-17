@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* adding google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,700&display=swap");
+/* nav section */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.nav-items {
+  /* border: 2px solid red; */
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+/* banner-section */
+
+.title {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+}
+.content {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+.btn-primary {
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 10px;
+  color: white;
+}
+.banner-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+.img {
+  height: 300px;
+  width: 300px;
+}
+.banner-img {
+  position: relative;
+  margin-bottom: 20px;
+}
+.bg {
+  z-index: 0;
+  top: 180px;
+}
+.ca {
+  z-index: 1;
+  top: -145px;
+}
+.icons{
+    display: flex;
+    /* border: 2px solid salmon; */
+    margin:50px;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
